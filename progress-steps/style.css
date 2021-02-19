@@ -53,7 +53,7 @@ body {
     left: 0;
     transform: translateY(-50%);
     height: 4px;
-    width: 50%;
+    width: 0%;
     z-index: -1;
     transition: 0.4s ease
 }
@@ -96,7 +96,7 @@ body {
 }
 
 .btn:disabled{
-    background-color: var(--line-border-fill);
+    background-color: var(--line-border-empty);
     cursor: not-allowed;
 
 }
